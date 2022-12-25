@@ -169,6 +169,12 @@ header {
     display: flex;
     gap: 5rem;
     margin-top: 10rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.items-2 li {
+    display: inline-block;
 }
 
 .items-2 a,
